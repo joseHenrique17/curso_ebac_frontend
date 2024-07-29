@@ -1,0 +1,76 @@
+
+*{
+    box-sizing:border-box;
+    margin: 2px;
+    padding: 2px;
+}
+
+body{
+    background-color:white;
+}
+
+.senha{
+    color:brown;
+}
+
+.e-mail{
+    color:green;
+}
+
+.nome{
+    color:darkslateblue;
+}
+
+.enviarFormulario{
+    background-color:green;
+    color:white;
+    margin:5px;
+    padding: 5px;
+}
+
+.apagarFormulario{
+    background-color:red;
+    color:white;
+    margin:5px;
+    padding: 5px;
+}
+
+.border{
+    margin: 2px;
+    border: 2px;
+    padding: 4px;
+    
+    border-style: solid;
+    border-color: black;
+}
+
+
+.image{
+    width:15%;
+    height:auto;
+    position:fixed;
+    bottom:0;
+    right:0;
+
+    border: 2px;
+    border-style:double;
+    border-radius:20px;
+    margin:10px;
+    border-color:black;
+}
+
+.flex{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+
+.texto{
+    width:50%;
+    height:auto;
+    border:2px;
+    border-style:double;
+    padding:10px;
+    display:flex;
+    
+}
